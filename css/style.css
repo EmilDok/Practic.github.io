@@ -1,0 +1,343 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+button {
+	border: 1px #a59477 solid;
+	outline: none;
+	background-color: transparent;
+	width: 150px;
+	height: 50px;
+	color: #a59477;
+	font-size: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+p {
+	margin: 0;
+}
+
+header {
+	height: 100px;
+	width: 100%;
+	background-color: #fff;
+}
+
+.wrap-head {
+	width: 1366px;
+	margin: auto;
+	padding: 31px 0;
+}
+
+.right-wrap {
+	float: right;
+}
+.menu {
+	float: left;
+	right: 196px;
+}
+
+.menu > ul {
+	display: inline-block;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+.menu > ul > li {
+	list-style-type: none;
+	display: inline-block;
+	font-weight: bolder;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	cursor: pointer;
+	color: #7d7d7d;
+	margin: 0 55px 0 0;
+}
+
+.menu > ul > li:hover {
+	color: #2a2a2a;
+}
+
+.menu > ul > li:active {
+	color: #000;
+}
+
+.menu > ul > li:first-child {
+	color: #744b24;
+}
+
+.menu > ul > li:last-child {
+	margin: 0 30px 0 0 ;
+}
+.menu:after {
+	content: "";
+	background-color: #7d7d7d;
+	width: 1px;
+	height: 38px;
+	float: right;
+	bottom: 31px;
+	position: relative;
+}
+
+.socials {
+	float: right;
+	padding: 0 0 0 30px;
+}
+
+.weare {
+	height: 500px;
+	width: 100%;
+	background-color: #2a2a2a;
+}
+
+.wrap {
+	width: 1366px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 55px;
+	margin: 0;
+	color: #a89574;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	padding: 50px 0;
+	display: inline-block;
+}
+
+.weare > .wrap > p {
+	font-size: 25px;
+	color: #c7c7c7;
+	letter-spacing: 0.4px;
+	line-height: 40px;
+	margin: 0;
+	display: inline-block;
+}
+
+.wrap > button {
+	margin: 50px 0 0 0;
+	transition: 0.5s;
+}
+
+.wrap > button:hover {
+	background-color: #464646;
+	transition: 0.5s;
+}
+
+.wrap > button:active {
+	background-color: #1d1d1d;
+}
+
+.wrap > img {
+	float: right;
+	padding: 50px 0;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.wrap > img:hover {
+	transform: scale(1.05);
+	transition: 1s;
+}
+
+.nulla {
+	background-color: #f4f4f4;
+	border-bottom: 1px #e7e7e7 solid;
+}
+
+.nulla > .wrap > p:first-child {
+	font-size: 25px;
+	padding: 0 0 30px 0;
+	color: #767676;
+	font-weight: bold;
+}
+
+.nulla > .wrap > p {
+	color: #818181;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+.nulla > .wrap > button:last-child {
+	border: 1px #c35369 solid;
+	color: #c35369;
+	margin: 0 0 0 10px;
+}
+
+.nulla > .wrap {
+	padding: 60px 0;
+}
+
+.maininfo {
+	background-color: #f9f9f9;
+}
+
+h2 {
+	margin: 0;
+	color: #767676;
+	padding: 60px 0 30px 0;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+}
+
+.maininfo > .wrap > .whatisproc > p {
+	line-height: 30px;
+	color: #818181;
+	margin: 0;
+	padding: 0 0 50px 0;
+}
+
+.maininfo > .wrap > .whatisproc > div {
+	display: inline-block;
+}
+
+.maininfo > .wrap > .whatisproc > .concept {
+	background-image: url(../img/circ1.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.maininfo > .wrap > .whatisproc > .prepare {
+	background-image: url(../img/circ2.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.maininfo > .wrap > .whatisproc > .retouch {
+	background-image: url(../img/circ3.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.maininfo > .wrap > .whatisproc > .final {
+	background-image: url(../img/circ4.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.maininfo > .wrap > .whatisproc > .pack {
+	background-image: url(../img/circ5.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.maininfo > .wrap > .whatisproc h3 {
+	text-align: center;
+	margin: 0;
+	padding: 120px 0 20px 0;
+	color: #767676;
+}
+
+.maininfo > .wrap > .whatisproc  span {
+	color: #aea085;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.maininfo > .wrap > .whatisproc  p {
+	text-align: center;
+	font-size: 15px;
+	color: #818181;
+	line-height: 22px;
+}
+
+.maininfo > .wrap > .whatisproc .desc {
+	text-align: left;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.maininfo > .wrap > .whatisproc  img {
+	width: 8px;
+	height: 12px;
+	vertical-align: top;
+	padding: 40px 30px 0 30px;
+}
+
+.stuffs {
+	text-align: center;
+}
+
+.person {
+	display: inline-block;
+	width: 275px;
+	height: 285px;
+	background-color: #9f9f9f;
+	border: 1px #dedede solid;
+	margin: 50px 20px 80px 0;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.person:hover {
+	transform: scale(1.02);
+	transition: 0.5s;
+}
+
+.stuffs .person span {
+	width: 275px;
+	height: 70px;
+	background-color: #fcfcfc;
+	display: block;
+	top: 215px;
+	position: relative;
+	font-size: 13px;
+}
+
+.stuffs .person span strong {
+	padding: 20px 0 0 0;
+	display: inline-block;
+	font-size: 15px;
+}
+
+.stuffs > p {
+	text-align: left;
+}
+
+.rp .date {
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #aea085;
+	text-align: center;
+}
+
+.post {
+	padding: 0 0 50px 0;
+}
+
+.rp > .post > .date {
+	border-radius: 80px;
+	border: 2px #aea085 solid;
+	width: 70px;
+	height: 70px;
+	display: block;
+	float: left;
+}
+
+.rp > .post span:first-child {
+	font-size: 25px;
+	padding: 10px 0 0 0;
+	display: block;
+}
+
+.rp > .post span:last-child {
+	font-size: 15px;
+	display: block;
+}
+
+.rp > .post > h3 {
+	color: #767676;
+	margin: 0 0 0 20px;
+}
+
+.rp > .post > a {
+	font-size: 10px;
+	position: relative;
+}
